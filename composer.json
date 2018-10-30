@@ -1,5 +1,5 @@
 {
-    "name": "fanboy/woocommerce-custom-pending-email",
+    "name": "flyberson/woocommerce-custom-pending-email",
     "description": "Sends email on pending status for Preorders",
     "type": "wordpress-plugin",
     "require": {

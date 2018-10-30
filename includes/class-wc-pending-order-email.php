@@ -65,6 +65,9 @@ class WC_Pending_Order_Email extends WC_Email {
 		// setup order object
 		$this->object = new WC_Order( $order_id );
 
+		/*
+		 * @deprecated needs to be fixed
+		 */
 
 		// replace variables in the subject/headings
 		$this->find[] = '{order_date}';
