@@ -28,8 +28,8 @@ class WC_Pending_Order_Email extends WC_Email {
 		$this->description = 'Pending Order Notification emails are sent when an order is pending';
 
 		// these are the default heading and subject lines that can be overridden using the settings
-		$this->heading = 'Pending Shipping Order';
-		$this->subject = 'Pending Shipping Order';
+		$this->heading = '[{site_title}] Ny Pending Ordre ({order_number}) - {order_date}';
+		$this->subject = '[{site_title}] Ny Pending Ordre ({order_number}) - {order_date}';
 
 		// these define the locations of the templates that this email should use, we'll just use the new order template since this email is similar
 		$this->template_html  = 'emails/admin-new-order.php';
