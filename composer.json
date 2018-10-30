@@ -1,0 +1,8 @@
+{
+    "name": "fanboy/woocommerce-custom-pending-email",
+    "description": "Sends email on pending status for Preorders",
+    "type": "wordpress-plugin",
+    "require": {
+        "php": "^5.3.3 || ^7.0"
+    }
+}
